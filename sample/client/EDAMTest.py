@@ -7,7 +7,6 @@
 # To run (Unix):
 #   export PYTHONPATH=../../lib; python EDAMTest.py
 #
-
 import hashlib
 import binascii
 import evernote.edam.userstore.constants as UserStoreConstants
