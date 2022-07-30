@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "evernote-sdk-python3"
-version = "0.1.2"
+version = "0.1.3"
 description = "evernote sdk for python3"
 authors = ["Björn Nadrowski <bjrnfrdnnd@gmail.com>"]
 packages = [
-#    { include = "config", from = "."},
+    { include = "thrift", from = "lib"},
     { include = "evernote", from = "lib" },
 ]
 
